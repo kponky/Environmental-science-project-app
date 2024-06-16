@@ -1,0 +1,57 @@
+.navbar{
+  width: 100%;
+  transition: 0.3s all ease;
+  z-index: 9;
+  position: relative;
+}
+
+.navbar::after{
+  content: "";
+  top: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-bottom: 1px solid #00000080;
+  position: absolute;
+}
+
+.navbar .navbar-container{
+  display: flex;
+  background-color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  padding-inline: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.navbar .navbar-container .navbar-logo{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar-logo .navlogo{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.navbar-logo h3{
+font-family: Space Grotesk;
+font-size: 20px;
+font-weight: 700;
+line-height: 20px;
+
+}
+
+.navbar-container .nav-links{
+  display: flex;
+  align-items: center;
+ }
+
+ .navbar-container .nav-links li{
+margin: 30px;
+ }
+
+
+
